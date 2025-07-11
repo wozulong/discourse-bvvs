@@ -5,7 +5,7 @@ import discourseComputed from "discourse/lib/decorators";
 import {
   isNthPost,
   isNthTopicListItem,
-} from "discourse/plugins/discourse-adplugin/discourse/helpers/slot-position";
+} from "discourse/plugins/discourse-bvvs/discourse/helpers/slot-position";
 
 export default class AdComponent extends Component {
   @service router;
